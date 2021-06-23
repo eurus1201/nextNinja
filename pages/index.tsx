@@ -1,13 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>
         Home Page
       </h1>
@@ -22,7 +19,6 @@ export default function Home() {
           see ninja listing
         </a>
       </Link>
-      <Footer/>
     </div>
   )
 }
