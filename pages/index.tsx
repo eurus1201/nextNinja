@@ -3,7 +3,11 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 export default function Home() {
-  return (
+  return (<>
+    <Head>
+      <title>Ninja List | Home</title>
+      <meta name="keywords" content="ninja" />
+    </Head>
     <div>
       <h1 className={styles.title}>
         Home Page
@@ -20,5 +24,5 @@ export default function Home() {
         </a>
       </Link>
     </div>
-  )
+  </>)
 }
