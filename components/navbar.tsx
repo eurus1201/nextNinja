@@ -8,7 +8,7 @@ export interface NavbarProps {
 const Navbar: React.SFC<NavbarProps> = () => {
     return (
         <nav>
-            <div>
+            <div className='logo'>
                 <h1>
                     Ninja List
                 </h1>

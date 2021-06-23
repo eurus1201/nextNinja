@@ -3,9 +3,10 @@ export interface FooterProps {
 }
 
 const Footer: React.SFC<FooterProps> = () => {
-    return (<div>
-Copyright ninja 2021
-    </div>);
+    return (
+    <footer>
+        Copyright ninja 2021
+    </footer>);
 }
 
 export default Footer;
